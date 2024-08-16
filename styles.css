@@ -1,63 +1,101 @@
+/* Reset and Basic Styles */
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     margin: 0;
     padding: 0;
     color: #333;
 }
 
+/* Header Styles */
 header {
     background: #333;
     color: #fff;
-    padding: 20px 0;
+    padding: 60px 0;
     text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+header .inner {
+    padding: 0 20px;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
-header nav ul {
-    list-style: none;
-    padding: 0;
+header p {
+    font-size: 1.2em;
 }
 
-header nav ul li {
-    display: inline;
-    margin: 0 10px;
-}
-
-header nav ul li a {
+/* Buttons */
+button, .button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    background: #555;
     color: #fff;
     text-decoration: none;
+    border-radius: 3px;
+    font-size: 1em;
+    transition: background 0.3s ease;
 }
 
-header nav ul li a:hover {
-    text-decoration: underline;
+button:hover, .button:hover {
+    background: #777;
 }
 
+/* Sections */
 section {
-    padding: 20px;
+    padding: 60px 20px;
 }
 
-.container {
-    width: 80%;
-    margin: auto;
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
 }
 
+/* Projects */
 .project {
     margin-bottom: 20px;
 }
 
 .project h3 {
     margin: 0;
+    font-size: 1.5em;
 }
 
+/* Social Links */
+.social {
+    list-style: none;
+    padding: 0;
+}
+
+.social li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.social .icon {
+    color: #333;
+    font-size: 1.5em;
+    text-decoration: none;
+}
+
+.social .icon:hover {
+    color: #555;
+}
+
+/* Footer */
 footer {
     background: #333;
     color: #fff;
+    padding: 20px;
     text-align: center;
-    padding: 10px 0;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+}
+
+footer .inner {
+    padding: 0 20px;
 }
