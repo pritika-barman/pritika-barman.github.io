@@ -1,17 +1,18 @@
 /* Reset and Basic Styles */
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #333;
+    color: #f0f0f0;
+    background: #000;
 }
 
 /* Header Styles */
 header {
     background: #333;
     color: #fff;
-    padding: 60px 0;
+    padding: 80px 0;
     text-align: center;
     position: relative;
     z-index: 1;
@@ -23,11 +24,13 @@ header .inner {
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
+    font-size: 3em;
+    font-weight: 700;
 }
 
 header p {
     font-size: 1.2em;
+    margin: 10px 0 30px;
 }
 
 /* Buttons */
@@ -35,7 +38,7 @@ button, .button {
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
-    background: #555;
+    background: #007acc;
     color: #fff;
     text-decoration: none;
     border-radius: 3px;
@@ -44,16 +47,17 @@ button, .button {
 }
 
 button:hover, .button:hover {
-    background: #777;
+    background: #005f9e;
 }
 
 /* Sections */
 section {
     padding: 60px 20px;
+    color: #fff;
 }
 
 section h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 20px;
 }
 
@@ -71,6 +75,7 @@ section h2 {
 .social {
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .social li {
@@ -79,13 +84,13 @@ section h2 {
 }
 
 .social .icon {
-    color: #333;
+    color: #fff;
     font-size: 1.5em;
     text-decoration: none;
 }
 
 .social .icon:hover {
-    color: #555;
+    color: #007acc;
 }
 
 /* Footer */
