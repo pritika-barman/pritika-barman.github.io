@@ -1,21 +1,19 @@
 /* Reset and Basic Styles */
 body {
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family: 'Arial', sans-serif;
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #f0f0f0;
-    background: #000;
+    color: #333;
+    background: #f4f4f9; /* Light background for better contrast */
 }
 
 /* Header Styles */
 header {
-    background: #333;
+    background: #ff6f61; /* Pastel pink */
     color: #fff;
     padding: 80px 0;
     text-align: center;
-    position: relative;
-    z-index: 1;
 }
 
 header .inner {
@@ -30,7 +28,6 @@ header h1 {
 
 header p {
     font-size: 1.2em;
-    margin: 10px 0 30px;
 }
 
 /* Buttons */
@@ -38,7 +35,7 @@ button, .button {
     display: inline-block;
     padding: 10px 20px;
     margin: 5px;
-    background: #007acc;
+    background: #4db6ac; /* Pastel teal */
     color: #fff;
     text-decoration: none;
     border-radius: 3px;
@@ -47,13 +44,14 @@ button, .button {
 }
 
 button:hover, .button:hover {
-    background: #005f9e;
+    background: #26a69a; /* Darker teal */
 }
 
 /* Sections */
 section {
     padding: 60px 20px;
-    color: #fff;
+    background: #e1bee7; /* Pastel purple */
+    color: #333;
 }
 
 section h2 {
@@ -90,12 +88,12 @@ section h2 {
 }
 
 .social .icon:hover {
-    color: #007acc;
+    color: #007acc; /* Pastel blue */
 }
 
 /* Footer */
 footer {
-    background: #333;
+    background: #ff6f61; /* Pastel pink */
     color: #fff;
     padding: 20px;
     text-align: center;
