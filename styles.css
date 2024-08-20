@@ -1,104 +1,70 @@
-/* Reset and Basic Styles */
 body {
+    margin: 0;
     font-family: 'Arial', sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
+    background-color: #f4f4f4;
     color: #333;
-    background: #f4f4f9; /* Light background for better contrast */
 }
 
-/* Header Styles */
-header {
-    background: #f4877e; /* Pastel pink */
-    color: #fff;
-    padding: 80px 0;
+#header {
+    background: #6C63FF;
+    padding: 100px 0;
     text-align: center;
+    color: white;
 }
 
-header .inner {
-    padding: 0 20px;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 3em;
-    font-weight: 700;
-}
-
-header p {
-    font-size: 1.2em;
-}
-
-/* Buttons */
-button, .button {
-    display: inline-block;
-    padding: 10px 20px;
-    margin: 5px;
-    background: #4db6ac; /* Pastel teal */
-    color: #fff;
-    text-decoration: none;
-    border-radius: 3px;
-    font-size: 1em;
-    transition: background 0.3s ease;
-}
-
-button:hover, .button:hover {
-    background: #26a69a; /* Darker teal */
-}
-
-/* Sections */
-section {
-    padding: 60px 20px;
-    background: #e1bee7; /* Pastel purple */
-    color: #333;
-}
-
-section h2 {
+#header h1 {
     font-size: 2.5em;
-    margin-bottom: 20px;
-}
-
-/* Projects */
-.project {
-    margin-bottom: 20px;
-}
-
-.project h3 {
-    margin: 0;
-    font-size: 1.5em;
-}
-
-/* Social Links */
-.social {
-    list-style: none;
-    padding: 0;
     margin: 0;
 }
 
-.social li {
-    display: inline;
-    margin: 0 10px;
+#header p {
+    margin: 10px 0 0;
+    font-size: 1.25em;
 }
 
-.social .icon {
-    color: #fff;
-    font-size: 1.5em;
-    text-decoration: none;
+.main {
+    padding: 60px 0;
 }
 
-.social .icon:hover {
-    color: #007acc; /* Pastel blue */
+.main.style1 {
+    background: #fff;
+    color: #333;
 }
 
-/* Footer */
-footer {
-    background: #ff6f61; /* Pastel pink */
-    color: #fff;
-    padding: 20px;
+.main.style2 {
+    background: #f4f4f4;
+    color: #333;
+}
+
+.main h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 40px;
+}
+
+.main .content {
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
 }
 
-footer .inner {
-    padding: 0 20px;
+.resume-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.resume-content h3 {
+    font-size: 1.5em;
+    margin-top: 30px;
+}
+
+footer {
+    background: #333;
+    padding: 30px 0;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    margin: 0;
 }
